@@ -78,19 +78,19 @@ ATGCGT...
 #### Local isolates (e.g. wastewater)
 
 ```bash
-locus build-db --ww --ww_dir data/
+gene_tool build-db --ww --ww_dir data/
 ```
 
 #### NCBI genomes
 
 ```bash
-locus build-db --ncbi --ncbi_dir ncbi_assemblies/
+gene_tool build-db --ncbi --ncbi_dir ncbi_assemblies/
 ```
 
 #### Both datasets
 
 ```bash
-locus build-db --all --ww_dir data/ --ncbi_dir ncbi_assemblies/
+gene_tool build-db --all --ww_dir data/ --ncbi_dir ncbi_assemblies/
 ```
 
 ---
@@ -98,7 +98,7 @@ locus build-db --all --ww_dir data/ --ncbi_dir ncbi_assemblies/
 ### 2. Detect gene
 
 ```bash
-locus detect -q ompR.fasta --ncbi --output results.tsv
+gene_tool detect -q ompR.fasta --ncbi --output results.tsv
 ```
 
 ---
@@ -106,7 +106,7 @@ locus detect -q ompR.fasta --ncbi --output results.tsv
 ### 3. Run alignment (optional)
 
 ```bash
-locus detect -q ompR.fasta --ncbi --output results.tsv --align
+gene_tool detect -q ompR.fasta --ncbi --output results.tsv --align
 ```
 
 ---
@@ -159,10 +159,10 @@ Can be visualized in:
 
 ```bash
 # Build databases
-locus build-db --ncbi --ncbi_dir ncbi_assemblies/
+gene_tool build-db --ncbi --ncbi_dir ncbi_assemblies/
 
 # Detect gene
-locus detect -q ompR.fasta --ncbi --output ompR_results.tsv --align
+gene_tool detect -q ompR.fasta --ncbi --output ompR_results.tsv --align
 ```
 
 ---
