@@ -1,0 +1,11 @@
+[project]
+name = "gene_tool"
+version = "0.1.0"
+description = "Tool for detecting gene variants using BLAST"
+dependencies = ["pandas"]
+
+[project.scripts]
+gene_tool = "gene_tool.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["gene_tool"]

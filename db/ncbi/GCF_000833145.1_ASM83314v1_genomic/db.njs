@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "db",
+  "dbtype": "Nucleotide",
+  "db-version": 5,
+  "description": "ncbi_assemblies/GCF_000833145.1_ASM83314v1_genomic.fna",
+  "number-of-letters": 4528118,
+  "number-of-sequences": 1,
+  "last-updated": "2026-04-29T05:39:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1169217,
+  "bytes-to-cache": 1132183,
+  "files": [
+    "db.ndb",
+    "db.nhr",
+    "db.nin",
+    "db.not",
+    "db.nsq",
+    "db.ntf",
+    "db.nto"
+  ]
+}

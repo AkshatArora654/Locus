@@ -1,0 +1,2 @@
+[console_scripts]
+gene_tool = gene_tool.cli:main

@@ -1,0 +1,5 @@
+name: gene_tool
+dependencies:
+  - python=3.10
+  - pandas
+  - blast
